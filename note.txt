@@ -1,0 +1,5 @@
+Run these before the project
+
+set API_KEY=my-secret-key
+
+echo %API_KEY%

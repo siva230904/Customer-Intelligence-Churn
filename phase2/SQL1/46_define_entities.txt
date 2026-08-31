@@ -1,0 +1,52 @@
+Entity:  customers 
+
+Attributes:
+
+customer_id          PK
+gender
+senior_citizen
+partner
+dependents
+
+
+
+
+Entity: contracts
+
+Attributes:
+
+customer_id         PK
+contract
+tenure
+
+Entity: services
+
+Attributes:
+
+customer_id         PK
+phone_service
+multiple_lines
+internet_service
+online_security
+online_backup
+device_protection
+tech_support
+streaming_tv
+streaming_movies
+paperless_billing
+
+Entity: Billing
+
+Attributes:
+
+customer_id     PK
+payment_method
+monthly_charges
+total_charges
+
+Entity: customer_status
+
+Attributes:
+
+customer_id    PK
+churn

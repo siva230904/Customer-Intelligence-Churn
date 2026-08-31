@@ -1,0 +1,13 @@
+pandas
+sqlalchemy
+pydantic
+fastapi
+uvicorn
+pymysql
+notebook
+re
+pyspark
+pyarrow
+joblib
+scikit-learn
+matplotlib

@@ -1,0 +1,47 @@
+# OS / editor files
+.DS_Store
+Thumbs.db
+*.swp
+*.swo
+*.tmp
+.vscode/
+.idea/
+*.code-workspace
+
+# Logs and temp files
+*.log
+logs/
+*.pid
+*.seed
+*.pid.lock
+
+# Dependency directories
+node_modules/
+venv/
+.venv/
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+.env
+.env.*
+
+# Build outputs
+build/
+dist/
+out/
+coverage/
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+.nox/
+
+# Local runtime data
+.cache/
+.tmp/
+tmp/
+
+# Package manager lockfiles (optional; uncomment if you do not want to track them)
+# package-lock.json
+# yarn.lock
+# pnpm-lock.yaml

@@ -1,0 +1,72 @@
+{
+    "generated_at": "2026-08-18T23:12:42.096310",
+    "total_checks": 8,
+    "passed": 8,
+    "failed": 0,
+    "checks": [
+        {
+            "check_name": "Null rate \u2014 monthly_charges",
+            "status": "PASS",
+            "value_found": 0.0,
+            "threshold": "<= 0%",
+            "severity": "CRITICAL"
+        },
+        {
+            "check_name": "Null rate \u2014 tenure",
+            "status": "PASS",
+            "value_found": 0.0,
+            "threshold": "<= 0%",
+            "severity": "CRITICAL"
+        },
+        {
+            "check_name": "Value range \u2014 tenure",
+            "status": "PASS",
+            "value_found": 0,
+            "threshold": "0\u2013100",
+            "severity": "CRITICAL"
+        },
+        {
+            "check_name": "Value range \u2014 monthly_charges",
+            "status": "PASS",
+            "value_found": 0,
+            "threshold": ">= 0",
+            "severity": "CRITICAL"
+        },
+        {
+            "check_name": "Allowed values \u2014 contract",
+            "status": "PASS",
+            "value_found": 0,
+            "threshold": [
+                "Month-to-month",
+                "One year",
+                "Two year"
+            ],
+            "severity": "CRITICAL"
+        },
+        {
+            "check_name": "Row count",
+            "status": "PASS",
+            "value_found": 7043,
+            "threshold": ">= 7000",
+            "severity": "CRITICAL"
+        },
+        {
+            "check_name": "Duplicate check \u2014 customer_id",
+            "status": "PASS",
+            "value_found": 0,
+            "threshold": 0,
+            "severity": "CRITICAL"
+        },
+        {
+            "check_name": "Churn distribution",
+            "status": "PASS",
+            "value_found": {
+                "churn_0": 5174,
+                "churn_1": 1869,
+                "invalid": 0
+            },
+            "threshold": "Values must be 0/1 and both classes must exist",
+            "severity": "CRITICAL"
+        }
+    ]
+}
